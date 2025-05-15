@@ -1,4 +1,4 @@
-Suvrudhi: Government Schemes Helpline
+Suvrudhi: Government Schemes Voice Bot
 Suvrudhi is a multilingual web-based Interactive Voice Response (IVR) system designed to help rural Indian citizens access information about government schemes in their preferred language. This project was developed for a hackathon presentation on May 15, 2025, by Chari and Person A.
 Project Overview
 Suvrudhi provides an accessible, smartphone-friendly interface for users to:
