@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Main Menu ({{ language.capitalize() }})</h1>
+        <audio id="main-menu-audio" controls autoplay aria-label="Main menu audio in {{ language }}">
+            <source src="/audio/{{ language }}/main_menu_{{ language }}.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <h2>Select a Scheme</h2>
+        <div class="button-group">
+            {% for scheme in schemes %}
+            <a href="/scheme/{{ language }}/{{ scheme.name.replace(' ', '_').lower() }}" class="button" aria-label="View details for {{ scheme.name }}">{{ loop.index }}. {{ scheme.name }}</a>
+            {% endfor %}
+        </div>
+        <a href="/" class="button back-button" aria-label="Back to language selection">Back to Language Selection</a>
+    </div>
+</body>
+</html>
