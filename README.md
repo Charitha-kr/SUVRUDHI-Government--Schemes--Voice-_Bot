@@ -144,5 +144,9 @@ Canvas-Confetti: For celebratory animations.
 
 
 
+
+https://github.com/user-attachments/assets/c6e9119d-cb31-445c-890f-679e995da2d2
+
+
 License
 This project is for a hackathon demo and is not licensed for public use. All rights reserved by Charitha and Soujanya, 2025.
