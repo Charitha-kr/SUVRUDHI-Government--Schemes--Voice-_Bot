@@ -145,7 +145,10 @@ Canvas-Confetti: For celebratory animations.
 
 
 
-https://github.com/user-attachments/assets/c6e9119d-cb31-445c-890f-679e995da2d2
+https://github.com/user-attachments/assets/bc2ba45f-646e-4b30-b989-ebb2939481e1
+
+
+
 
 
 License
